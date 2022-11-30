@@ -16,7 +16,6 @@ services:
       MYSQL_DATABASE: stock
       MYSQL_USER: developer_user
       MYSQL_PASSWORD: developer_pass
-      MYSQL_ROOT_HOST: 192.168.0.56/255.255.255.240
     ports:
       - 6603:3306
     networks:
