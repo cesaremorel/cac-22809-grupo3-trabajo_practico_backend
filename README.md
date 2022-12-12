@@ -44,3 +44,5 @@ Servidor ok en el puerto 9000
 ## Probando los webservices
 
 Recomendamos la extensión Thunder Client (https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client).
+
+![ejemplo de uso de thunder client](./doc/img/thunder_ejemplo_01.png)
