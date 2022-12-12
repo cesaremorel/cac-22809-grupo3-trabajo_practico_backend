@@ -33,6 +33,9 @@ Volver a la carpeta raiz del proyecto y dentro de la misma ejecutar:
 npm i
 node app.js
 ```
+
+> **NOTA**: Si instalaste nodemon (`npm i -g nodemon`) puedes reeemplazar la linea `node app.js` con `nodemon app.js`.
+
 La salida será similar a esto:
 
 ```text
@@ -46,3 +49,8 @@ Servidor ok en el puerto 9000
 Recomendamos la extensión Thunder Client (https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client).
 
 ![ejemplo de uso de thunder client](./doc/img/thunder_ejemplo_01.png)
+
+Estan disponibles los endpoints siguientes:
+
+- /brand/
+- /product/
