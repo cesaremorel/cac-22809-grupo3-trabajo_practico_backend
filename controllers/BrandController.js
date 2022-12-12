@@ -6,7 +6,6 @@ import BrandModel from "../models/BrandModel.js";
 export const getAllBrands = async (req,res)=>{
     try {
         const brands = await BrandModel.findAll({
-            nest: true
         })
         res.json(brands)
     } catch (error) {
