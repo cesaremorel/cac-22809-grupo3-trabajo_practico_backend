@@ -24,6 +24,10 @@ try {
 
 const port = 9000
 
+/*app.get("/", (req, res) =>{
+    res.send("ok desde el servidor");
+});*/
+
 app.listen(port, () => {
     console.log(`Servidor ok en el puerto ${port}`)
 })
