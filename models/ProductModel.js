@@ -10,7 +10,6 @@ import { DataTypes } from "sequelize"
 const ProductModel = db.define("product", {
     code: { type: DataTypes.STRING, unique: true},
     name: { type: DataTypes.STRING },
-
 })
 
 export default ProductModel

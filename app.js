@@ -10,9 +10,8 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 //analiza las solicitudes JSON entrantes y coloca los datos analizados en formato req.body
-
-app.use("/product", ProductRoutes)
 app.use("/brand", BrandRoutes)
+app.use("/product", ProductRoutes)
 
 //base de datos
 try {

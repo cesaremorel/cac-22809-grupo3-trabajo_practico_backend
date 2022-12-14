@@ -51,6 +51,7 @@ export const getBrand = async (req,res)=>{
  export const deleteBrand = async (req,res)=>{
     try {
         if (req.params.id == 1){
+            res.status(403)
             throw new Error('No es posible eliminar esta marca. Es un registro del sistema.')
         }
         await BrandModel.destroy({
